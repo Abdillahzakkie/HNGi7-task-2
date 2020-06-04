@@ -1,2 +1,14 @@
-const [fullName, id, email, lang] = ['Abdullah Zakariyya Opeyemi', 'HNG-03146', 'zakariyyaopeyemi@gmail.com', 'Javascript'];
-console.log(`Hello World, this is ${fullName} with HNGi7 ID ${id} and email ${email} using ${lang} for stage 2 task`);
+const data = {
+    message: 'Hello world',
+    name: 'abdullah zakariyya opeyemi',
+    id: 'HNG-03146',
+    language: 'JavaScript',
+    email: 'zakariyyaopeyemi@gmail.com',
+  };
+  
+  const { message, name, id, language, email } = data;
+  const output = `${message}, this is ${name} with HNGi7 ID ${id} and email ${email} using ${language} for stage 2 task.`;
+  
+  console.log(output);
+  return output;
+  
